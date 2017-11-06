@@ -1,75 +1,63 @@
 .gitlabpure .header-content .logo-text {
     display: none;
 }
-
 .gitlabpure .header-content .navbar-sub-nav {
     display: none;
 }
-
 .gitlabpure .header-content .navbar-collapse li:not(.hidden-sm) {
     display: none;
 }
-
 .gitlabpure div.nav-sidebar {
     z-index: 1000;
     width: 0;
     min-width: 0;
 }
-
 .gitlabpure div.nav-sidebar .context-header {
     display: none;
 }
-
 .gitlabpure div.nav-sidebar > div > ul > li {
     width: 0;
 }
 
+.gitlabpure div.nav-sidebar > div > ul > li .nav-item-name {
+    display: none;
+}
 .gitlabpure div.nav-sidebar > div > ul > li .shortcuts-issues {
     position: fixed;
     top: -40px;
     left: 50px;
 }
-
 .gitlabpure div.nav-sidebar > div > ul > li .shortcuts-issues + ul {
     display: none !important;
 }
-
 .gitlabpure div.nav-sidebar > div > ul > li .shortcuts-merge_requests {
     position: fixed;
     top: -40px;
-    left: 100px;
+    left: 130px;
 }
-
 .gitlabpure div.nav-sidebar > div > ul > li .shortcuts-merge_requests + ul {
     display: none !important;
 }
-
 .gitlabpure div.nav-sidebar > div > ul > li .shortcuts-wiki {
     position: fixed;
     top: -40px;
-    left: 150px;
+    left: 210px;
 }
-
 .gitlabpure div.nav-sidebar > div > ul > li .shortcuts-wiki + ul {
     display: none !important;
 }
-
 .gitlabpure div.nav-sidebar .toggle-sidebar-button {
     display: none;
 }
-
 .gitlabpure .right-sidebar .block {
     display: none;
 }
-
 .gitlabpure .right-sidebar .assignee {
     display: block;
 }
-
 .gitlabpure .right-sidebar .labels {
     display: block;
 }
-
 .gitlabpure .right-sidebar .participants {
     display: block;
 }
