@@ -18,7 +18,6 @@
 .gitlabpure div.nav-sidebar > div > ul > li {
     width: 0;
 }
-
 .gitlabpure div.nav-sidebar > div > ul > li .nav-item-name {
     display: none;
 }
